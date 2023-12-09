@@ -1,0 +1,113 @@
+.international01{
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    z-index: 1;
+    margin-top: -40px;
+    background: #fff;
+}
+.international01 h1{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: serif;
+    color: #b00000;
+}
+.servicess{
+    color: #b00000;
+}
+.international01 h3{
+    color: #b00000;
+}
+.offer{
+    color: grey;
+}
+.img-box{
+    overflow: hidden;
+}
+.img-box:hover{
+    transition: ease-out 1s;
+    transform: scale(1.01);
+    overflow: hidden !important;
+}
+.position-absolute{
+    position: absolute;
+    z-index: 2;
+}
+.img-box div{
+    margin-top: 0px;
+}
+.card-body p{
+    text-align: justify;
+}
+.individuals h3{
+    background: #d10202;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.column-title h3{
+    position: absolute;
+    margin-top: 30px;
+    padding: 5px 10px 2px;
+    margin-left: -17px;
+    z-index: 9;
+}
+.column-title h3::after{
+    content: '';
+    top: 0px;
+    width: 10px;
+    height: 0px;
+    left: 100%;
+    position: absolute;
+    border-top: 40px solid #d10202;
+    border-right: 15px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+.column-title h3::before{
+    content: '';
+    top: 40px;
+    width: 10px;
+    height: 0px;
+    left: 0px;
+    right: 100%;
+    position: absolute;
+    border-top: 22px solid #d10202;
+    border-left: 17px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+.service a{
+    color: #b00000;
+    margin-left: 0px;
+    margin: auto;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #b00000;
+    text-align: center;
+    font-weight: 600;
+    padding: 8px 30px;
+}
+.service a:hover{
+    background: #b00000;
+    color: #fff;
+}
+.service2 a{
+    color: #fff;
+    margin-right: 0px;
+    margin: auto;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: #b00000;
+    border: 2px solid #b00000;
+    text-align: center;
+    font-weight: 600;
+    padding: 8px 30px;
+
+}
+.service2 a:hover{
+    background: #fff;
+    color: #000;
+}

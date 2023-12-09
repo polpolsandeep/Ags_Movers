@@ -1,0 +1,56 @@
+.top-head{
+    height: 28px;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    overflow:hidden;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.leftside ul li{
+    margin: 0px 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 13px;
+    cursor: pointer;
+}
+.leftside ul li a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.active{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    font-weight: bold;
+    padding: 0px 10px;
+    margin: 0px -15px;
+    text-decoration: none;
+    display: block;
+    transform: skewX(-20deg);
+    color: #b00000;
+    background: #fff;
+}
+.rightside ul li{
+    margin: 0px 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 13px;
+    cursor: pointer;
+}
+.rightside ul li a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.rightside ul li select{
+    border: none;
+    border-color: #000;
+    background: #34313a;
+    color: #fff;
+}
+/* .country .dropdown-content{
+    position: absolute;
+    z-index: 2;
+} */

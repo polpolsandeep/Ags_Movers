@@ -1,0 +1,77 @@
+.nav-item a{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.dropdown-menu{
+    background: #5e5d61;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.btn-quote{
+    background: #b00000;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 7px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 7px;
+    margin-right: -12px;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+.nav-item a{
+   cursor: pointer;
+}
+.mega-menu{
+    display: none;
+}
+.col-3 h5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.01);
+    transition: all 0.5s;
+}
+button{
+    border: none;
+}
+.nav-item:hover .mega-menu{
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.megamenu_header01{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.hr001{
+    border-bottom: 3px solid white;
+    width: 700px;
+}
+h5{
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 600;
+}
+.hr002{
+    border-bottom: 3px solid white;
+    width: 300px;
+}
+p{
+    font-size: 16px;
+    line-height: normal;
+}
+p:hover{
+    text-decoration: underline;
+    color: white;
+}

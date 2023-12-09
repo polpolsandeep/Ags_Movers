@@ -1,0 +1,44 @@
+.domestic{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 18px;
+    padding-right: 15px;
+    background: #34313a;
+    color: #fff;
+}
+.image01{
+    margin-left: 30px;
+}
+.image001{
+    margin-left: 10px;
+    overflow: hidden;
+}
+.image001:hover{
+    transform: scale(1.1);
+}
+h3{
+    margin-left: 20px;
+}
+.qote{
+    font-size: 14px;
+    font-weight: 600;
+}
+h3:hover{
+    transform: scale(1.5);
+    transition: all 0.5s;
+    color: white;
+}
+.qote2{
+    font-size: 17px;
+    font-weight: 800;
+}
+.image01 p{
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.image01 p:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,45 @@
+.demo02{
+    background: #0bc47a;
+    height: 100%;
+    width: 100%;
+}
+h1,h3,h4,p{
+    color: #d43d3d;
+}
+h1{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+h3{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+h4{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+p{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.whats{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(194, 19, 19);
+    cursor: pointer;
+    animation:blinker 1s step-start infinite;
+}
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
+.back{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    text-align: right;
+}

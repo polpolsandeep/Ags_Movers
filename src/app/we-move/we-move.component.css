@@ -1,0 +1,37 @@
+.move{
+ background: url(/assets/removals_bg.jpg) no-repeat;
+ height: 100%;
+ width: 100%;
+}
+.we{
+    font-size: 30px;
+    font-family: serif;
+    font-weight: 800;
+    color: #d00000;
+}
+.move h4{
+    color: #d00000;
+}
+h1{
+    font-size: 36px;
+    font-family: serif;
+    font-weight: bolder;
+    color: rgb(179, 179, 17);
+}
+span{
+    font-size: 18px;
+    color: #000;
+
+}
+.freequote{
+    font-size: 14px;
+    color: #fff;
+    background: #b00000;
+    border: none;
+    padding: 10px 30px 10px 50px;
+    text-align: center;
+    font-weight: 600;
+    margin: 13px 0 0 0;
+    display: inline-block;
+    text-decoration: none;
+}

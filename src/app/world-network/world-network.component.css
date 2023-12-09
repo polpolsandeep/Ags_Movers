@@ -1,0 +1,29 @@
+.rem_indu{
+    color: #b00000;
+}
+p{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+.buton001125{
+    margin-left: 245px;
+}
+.branch:hover{
+    background: #b00000;
+    cursor: pointer;
+    color: #fff;
+}
+.country{
+    background: #b00000;
+    color: #fff;
+}
+.country:hover{
+    background: #fff;
+    color: #b00000;
+    cursor: pointer;
+}

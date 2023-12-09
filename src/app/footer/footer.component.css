@@ -1,0 +1,48 @@
+.footer01{
+    background: #34313a;
+}
+a{
+    text-decoration: none;
+    color:rgb(151, 145, 145) ;
+}
+.footer01 ul li{
+  list-style-type: none;
+  color: rgb(151, 145, 145);
+  line-height: 3rem;
+  cursor: pointer;
+}
+.footer01 ul li:hover{
+    color: #fff;
+    background: #0000;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btn-quote{
+    background: #b00000;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 7px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 7px;
+    margin-right: -12px;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+.youtube{
+    color: #f1f2f3;
+}
+h2{
+    font-size: 18px;
+    color: white;
+    font-family: serif;
+}
+p{
+    color: #f1f2f3;
+}
+.policy{
+    margin-left: 535px;
+    padding-left: 480px;
+}
